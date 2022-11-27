@@ -1,0 +1,14 @@
+nav li{
+    list-style: none;
+    margin-left: 20px;
+}
+nav li a{
+    text-decoration:none;
+}
+nav ul{
+    display: flex;
+}
+nav li a:hover{
+    background-color: aqua;
+    padding: 20px;
+}
