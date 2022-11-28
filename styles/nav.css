@@ -5,10 +5,22 @@ nav li{
 nav li a{
     text-decoration:none;
 }
-nav ul{
+nav> ul{
     display: flex;
 }
 nav li a:hover{
     background-color: aqua;
-    padding: 20px;
+    padding: 10px;
+}
+.dropdown-menu{
+    display:none;
+    position: absolute;
+    background-color:lightcoral;
+    padding: 0;
+}
+nav > ul >li:hover> ul{
+display: block;
+}
+.dropdown-menu li{
+    margin: 0;
 }
